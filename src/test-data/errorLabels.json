@@ -1,0 +1,6 @@
+{
+  "ERROR_EMPTY_FIELD" : "Epic sadface: Username is required",
+  "ERROR_LABEL_FIELD_REQUIRED": "This is a required field.",
+  "ERROR_LABEL_INCORRECT_CREDENTIALS": "Epic sadface: Username and password do not match any user in this service",
+  "ERROR_LABEL_NAME_REQUIRED": "Error: First Name is required"
+}
