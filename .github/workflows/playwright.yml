@@ -15,6 +15,9 @@ jobs:
         with:
           node-version: '18'
 
+     - name: Clear Playwright cache
+       run: rm -rf ~/.cache/ms-playwright
+
       - name: Install dependencies
         run: npm install
 
@@ -32,5 +35,3 @@ jobs:
           name: allure-report
           path: allure-report
 
-     - name: Clear Playwright cache
-      run: rm -rf ~/.cache/ms-playwright
