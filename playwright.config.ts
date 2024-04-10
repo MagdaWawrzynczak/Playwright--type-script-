@@ -19,9 +19,10 @@ export default defineConfig({
     screenshot: "only-on-failure",
     video: "retain-on-failure",
     launchOptions: {
+      browser: "chromium",
       slowMo: 250,
     },
-    headless: false
+    headless: true
   },
   projects: [
     {
