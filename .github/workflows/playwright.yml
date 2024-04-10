@@ -19,7 +19,7 @@ jobs:
         run: npm install
 
       - name: Run tests
-        run: npx playwright test
+        run: npm run tests
 
       - name: Generate Allure Report
         run: |
