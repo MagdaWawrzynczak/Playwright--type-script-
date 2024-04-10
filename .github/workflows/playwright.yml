@@ -1,6 +1,7 @@
 name: Run Tests and Generate Allure Report
 
-on: [push, pull_request]
+on:
+  push: [push, pull_request]
 
 jobs:
   test:
@@ -14,9 +15,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
-
-     - name: Clear Playwright cache
-       run: rm -rf ~/.cache/ms-playwright
 
       - name: Install dependencies
         run: npm install
@@ -34,4 +32,3 @@ jobs:
         with:
           name: allure-report
           path: allure-report
-
