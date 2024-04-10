@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tests": "playwright test --headed --project=chromium",
-    "report": "playwright show-report"
+    "tests": "playwright test"
   },
   "keywords": [],
   "author": "Magdalena Wawrzyńczak",
